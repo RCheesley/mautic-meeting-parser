@@ -1,9 +1,9 @@
-# drupal-meeting-parser
-This is a bare bones Google Chrome extension to copy Drupal meeting threads to the system clipboard.
+# mautic-meeting-parser
+This is a bare bones Google Chrome extension to copy Mautic meeting threads to the system clipboard.
 
-<img src="https://github.com/mdlutz24/drupal-meeting-parser/blob/master/icon.png" alt="Drupal Meeting Parser icon" align="right" />
+<img src="https://github.com/rcheesley/mautic-meeting-parser/blob/master/icon.png" alt="Mautic Meeting Parser icon" align="right" />
 
-Many Drupal teams use threaded meetings to discuss current topics. This
+Many Mautic teams use threaded meetings to discuss current topics. This
 extension helps to archive the meeting log from these meetings for posterity.
 Crediting meeting participants is facilitated as well.
 
@@ -18,7 +18,7 @@ Crediting meeting participants is facilitated as well.
    unpacked Chrome Extension to your browser. Pick the directory you checked
    this out to.
 
-4. A grayed out Drupal meeting parser icon will appear in your browser alongside
+4. A grayed out Mautic meeting parser icon will appear in your browser alongside
    the URL bar.
 
 4. Open the chatroom in Google Chrome. The icon will become blue and three
@@ -49,20 +49,11 @@ you added them) to the operating system's clipboard with the 'Copy' button.
 3. At the end of the paste, you will find a 'Participants' section. This
    includes all the chat usernames of participants. It is a best practice to
    credit active meeting participants on the meeting notes issue. You can do
-   that by pasting the list of participants at the end of your drupal.org
-   meeting issue in the 'Credit others' textfield (in the 'Crediting &
-   committing' fieldset). This field is only visible for maintainers of a
-   project. If you are not a maintainer, ask a maintainer to credit people.
+   that by pasting the list of participants at the end of your meeting notes.
 
-   Do keep in mind two things. First of all, it is a best practice to only
+   Do keep in mind that it is a best practice to only
    credit active meeting participants. That is people who actually contributed
-   to the meeting. Second, drupal.org usernames will not always be the same as
-   chat usernames. When you save credits after you pasted the list, check which
-   users got credits and find and add the actual drupal.org usernames for the
-   missing participants to credit. Then save them with another comment.
-
-   Finally, don't forget to close the issue as fixed so the credits will be
-   granted.
+   to the meeting.
 
 ## Contributing
 

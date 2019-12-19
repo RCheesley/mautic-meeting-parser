@@ -1,7 +1,7 @@
 {
-  "name": "Drupal Meeting Parser",
+  "name": "Mautic Meeting Parser",
   "version": "1.0",
-  "description": "Parses Drupal meeting threads for public archiving",
+  "description": "Parses Mautic meeting threads for public archiving",
   "manifest_version": 2,
   "icons": {
     "128": "icon.png"
